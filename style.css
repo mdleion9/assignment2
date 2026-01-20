@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     max-width: 1600px;
     overflow-x: hidden;
+    font-family: inter;
 }
 
 
 
 /* navbar style start here  */
-
+.header{
+    background-color: ;
+}
 .navbar{
     width: 85vw;
     margin: 0 auto;
@@ -80,6 +84,7 @@
     right: 0;
     left: 0;
     bottom: 0;
+    /* border: 1px solid red; */
  }
 .circle-divs{
     width: 350px;
@@ -89,6 +94,24 @@
     position: relative;
 
 }
+.new{
+    /* border: 2px solid red; */
+    padding: 10px;
+    background-color: #00FF88;
+    color: white;
+    position: absolute;
+    left: 55%;
+    top: 90px;
+    margin: 0 auto;
+    border-radius: 25px;
+    font-size: 28px;
+    animation: scaleText 1s ease-in-out infinite;
+}
+ @keyframes scaleText {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
 .micro{ 
     background-image: url('./assets/microphone.png');
     background-repeat: no-repeat;
